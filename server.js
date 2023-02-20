@@ -1,7 +1,7 @@
 const io = require('socket.io')(8000,{
     // for solving the error of cors origin policy
     cors:{
-        origin: "http://127.0.0.1:5500",
+        origin: "https://suraj-021.github.io/Chatting-App.git.io/",
         methods: ["GET", "POST"]
     }
 });
