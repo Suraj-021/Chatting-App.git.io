@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Chatting</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="JS/client.js"></script>
+    <link rel="stylesheet" href="CSS/Style.css">
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <img src="./IMG/logo.png" alt="logo">
+        <h2>Welcome To Chatting App</h2>
+    </nav>
+
+    <div class="message_box" style=" background-image: url(./IMG/background-dark.webp);" id="m_box">
+
+        <div class="container">
+            <!-- <div class="message left"> suraj: hii</div>
+                <div class="message right"> yash :hii</div> -->
+                
+            </div>
+            <form action="#">
+                <img src="./IMG/smile_icon.png" alt="icon" id="smily">
+                <input type="text" name="message" id="send_messagein" placeholder="Write Message">
+                <button class="btn" type="submit">send</button>
+            </form>
+            
+    </div>
+
+</body>
+
+</html>
