@@ -1,6 +1,6 @@
 // const { url } = require("inspector");
 
-const socket = io('http://localhost:8000');
+const socket = io('https://suraj-021.github.io/Chatting-App.git.io/');
 
 const form = document.querySelector('form');
 const messageContainer = document.querySelector('.container');
